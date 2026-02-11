@@ -446,7 +446,7 @@
                 font-size: 18px;
             }
             .success-yay {
-                font-size: 20px;
+                font-size: 50px;
             }
             .puzzle-container {
                 max-width: min(360px, 40vh);
@@ -499,7 +499,7 @@
                 font-size: 14px;
             }
             .success-yay {
-                font-size: 16px;
+                font-size: 35px;
             }
             .puzzle-container {
                 max-width: min(240px, 40vh);
@@ -568,7 +568,7 @@
 
         /* Success: Yay + gif + Reset */
         .success-yay {
-            font-size: 24px;
+            font-size: 35px;
             font-weight: 600;
             color: #111;
             margin-bottom: 20px;
@@ -577,13 +577,10 @@
         .success-gif-wrap {
             margin: 0 auto 24px;
             border-radius: 12px;
-            overflow: hidden;
-            max-width: 420px;
         }
 
         .success-gif-wrap img {
-            display: block;
-            width: 100%;
+            width: min(80vw, 400px);
             height: auto;
         }
 
@@ -643,7 +640,7 @@
 
             <!-- VIEW: Success -->
             <div id="successView" class="modal-view">
-                <p class="modal-title">Yay, I can't wait!</p>
+                <p class="success-yay">Yay, I can't wait!</p>
                 <div class="success-gif-wrap">
                     <img src="giphy.gif" alt="" />
                 </div>
